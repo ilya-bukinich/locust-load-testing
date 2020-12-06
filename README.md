@@ -1,5 +1,7 @@
 ## Build & run
 ```
+git clone https://github.com/ilya-bukinich/locust-load-testing.git && cd locust-load-testing/
+chmod +x entrypoint.sh
 docker build --tag locust:latest .  
 docker run -d \
 -p 8089:8089 \
